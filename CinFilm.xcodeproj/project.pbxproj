@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44AC897E23DBC85F001D1255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC897D23DBC85F001D1255 /* AppDelegate.swift */; };
+		44AC898023DBC85F001D1255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC897F23DBC85F001D1255 /* SceneDelegate.swift */; };
+		44AC898223DBC85F001D1255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC898123DBC85F001D1255 /* ViewController.swift */; };
+		44AC898523DBC85F001D1255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AC898323DBC85F001D1255 /* Main.storyboard */; };
+		44AC898723DBC860001D1255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AC898623DBC860001D1255 /* Assets.xcassets */; };
+		44AC898A23DBC860001D1255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AC898823DBC860001D1255 /* LaunchScreen.storyboard */; };
+		44AC899523DBC860001D1255 /* CinFilmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC899423DBC860001D1255 /* CinFilmTests.swift */; };
+		44AC89A023DBC860001D1255 /* CinFilmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC899F23DBC860001D1255 /* CinFilmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44AC899123DBC860001D1255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AC897223DBC85F001D1255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AC897923DBC85F001D1255;
+			remoteInfo = CinFilm;
+		};
+		44AC899C23DBC860001D1255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AC897223DBC85F001D1255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AC897923DBC85F001D1255;
+			remoteInfo = CinFilm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44AC897A23DBC85F001D1255 /* CinFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AC897D23DBC85F001D1255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44AC897F23DBC85F001D1255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44AC898123DBC85F001D1255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44AC898423DBC85F001D1255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44AC898623DBC860001D1255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44AC898923DBC860001D1255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44AC898B23DBC860001D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AC899023DBC860001D1255 /* CinFilmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinFilmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AC899423DBC860001D1255 /* CinFilmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinFilmTests.swift; sourceTree = "<group>"; };
+		44AC899623DBC860001D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AC899B23DBC860001D1255 /* CinFilmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinFilmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AC899F23DBC860001D1255 /* CinFilmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinFilmUITests.swift; sourceTree = "<group>"; };
+		44AC89A123DBC860001D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44AC897723DBC85F001D1255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AC898D23DBC860001D1255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AC899823DBC860001D1255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AC897123DBC85F001D1255 = {
+			isa = PBXGroup;
+			children = (
+				44AC897C23DBC85F001D1255 /* CinFilm */,
+				44AC899323DBC860001D1255 /* CinFilmTests */,
+				44AC899E23DBC860001D1255 /* CinFilmUITests */,
+				44AC897B23DBC85F001D1255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44AC897B23DBC85F001D1255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AC897A23DBC85F001D1255 /* CinFilm.app */,
+				44AC899023DBC860001D1255 /* CinFilmTests.xctest */,
+				44AC899B23DBC860001D1255 /* CinFilmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44AC897C23DBC85F001D1255 /* CinFilm */ = {
+			isa = PBXGroup;
+			children = (
+				44AC897D23DBC85F001D1255 /* AppDelegate.swift */,
+				44AC897F23DBC85F001D1255 /* SceneDelegate.swift */,
+				44AC898123DBC85F001D1255 /* ViewController.swift */,
+				44AC898323DBC85F001D1255 /* Main.storyboard */,
+				44AC898623DBC860001D1255 /* Assets.xcassets */,
+				44AC898823DBC860001D1255 /* LaunchScreen.storyboard */,
+				44AC898B23DBC860001D1255 /* Info.plist */,
+			);
+			path = CinFilm;
+			sourceTree = "<group>";
+		};
+		44AC899323DBC860001D1255 /* CinFilmTests */ = {
+			isa = PBXGroup;
+			children = (
+				44AC899423DBC860001D1255 /* CinFilmTests.swift */,
+				44AC899623DBC860001D1255 /* Info.plist */,
+			);
+			path = CinFilmTests;
+			sourceTree = "<group>";
+		};
+		44AC899E23DBC860001D1255 /* CinFilmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44AC899F23DBC860001D1255 /* CinFilmUITests.swift */,
+				44AC89A123DBC860001D1255 /* Info.plist */,
+			);
+			path = CinFilmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44AC897923DBC85F001D1255 /* CinFilm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AC89A423DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilm" */;
+			buildPhases = (
+				44AC897623DBC85F001D1255 /* Sources */,
+				44AC897723DBC85F001D1255 /* Frameworks */,
+				44AC897823DBC85F001D1255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinFilm;
+			productName = CinFilm;
+			productReference = 44AC897A23DBC85F001D1255 /* CinFilm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44AC898F23DBC860001D1255 /* CinFilmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AC89A723DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilmTests" */;
+			buildPhases = (
+				44AC898C23DBC860001D1255 /* Sources */,
+				44AC898D23DBC860001D1255 /* Frameworks */,
+				44AC898E23DBC860001D1255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AC899223DBC860001D1255 /* PBXTargetDependency */,
+			);
+			name = CinFilmTests;
+			productName = CinFilmTests;
+			productReference = 44AC899023DBC860001D1255 /* CinFilmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44AC899A23DBC860001D1255 /* CinFilmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AC89AA23DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilmUITests" */;
+			buildPhases = (
+				44AC899723DBC860001D1255 /* Sources */,
+				44AC899823DBC860001D1255 /* Frameworks */,
+				44AC899923DBC860001D1255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AC899D23DBC860001D1255 /* PBXTargetDependency */,
+			);
+			name = CinFilmUITests;
+			productName = CinFilmUITests;
+			productReference = 44AC899B23DBC860001D1255 /* CinFilmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44AC897223DBC85F001D1255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nasar K Issa";
+				TargetAttributes = {
+					44AC897923DBC85F001D1255 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					44AC898F23DBC860001D1255 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 44AC897923DBC85F001D1255;
+					};
+					44AC899A23DBC860001D1255 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 44AC897923DBC85F001D1255;
+					};
+				};
+			};
+			buildConfigurationList = 44AC897523DBC85F001D1255 /* Build configuration list for PBXProject "CinFilm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44AC897123DBC85F001D1255;
+			productRefGroup = 44AC897B23DBC85F001D1255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44AC897923DBC85F001D1255 /* CinFilm */,
+				44AC898F23DBC860001D1255 /* CinFilmTests */,
+				44AC899A23DBC860001D1255 /* CinFilmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44AC897823DBC85F001D1255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AC898A23DBC860001D1255 /* LaunchScreen.storyboard in Resources */,
+				44AC898723DBC860001D1255 /* Assets.xcassets in Resources */,
+				44AC898523DBC85F001D1255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AC898E23DBC860001D1255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AC899923DBC860001D1255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44AC897623DBC85F001D1255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AC898223DBC85F001D1255 /* ViewController.swift in Sources */,
+				44AC897E23DBC85F001D1255 /* AppDelegate.swift in Sources */,
+				44AC898023DBC85F001D1255 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AC898C23DBC860001D1255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AC899523DBC860001D1255 /* CinFilmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AC899723DBC860001D1255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AC89A023DBC860001D1255 /* CinFilmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AC899223DBC860001D1255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AC897923DBC85F001D1255 /* CinFilm */;
+			targetProxy = 44AC899123DBC860001D1255 /* PBXContainerItemProxy */;
+		};
+		44AC899D23DBC860001D1255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AC897923DBC85F001D1255 /* CinFilm */;
+			targetProxy = 44AC899C23DBC860001D1255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44AC898323DBC85F001D1255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AC898423DBC85F001D1255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44AC898823DBC860001D1255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AC898923DBC860001D1255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44AC89A223DBC860001D1255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44AC89A323DBC860001D1255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44AC89A523DBC860001D1255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CinFilm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasarissa.CinFilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44AC89A623DBC860001D1255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CinFilm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasarissa.CinFilm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44AC89A823DBC860001D1255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CinFilmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasarissa.CinFilmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CinFilm.app/CinFilm";
+			};
+			name = Debug;
+		};
+		44AC89A923DBC860001D1255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CinFilmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasarissa.CinFilmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CinFilm.app/CinFilm";
+			};
+			name = Release;
+		};
+		44AC89AB23DBC860001D1255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CinFilmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasarissa.CinFilmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CinFilm;
+			};
+			name = Debug;
+		};
+		44AC89AC23DBC860001D1255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CinFilmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasarissa.CinFilmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CinFilm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44AC897523DBC85F001D1255 /* Build configuration list for PBXProject "CinFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AC89A223DBC860001D1255 /* Debug */,
+				44AC89A323DBC860001D1255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AC89A423DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AC89A523DBC860001D1255 /* Debug */,
+				44AC89A623DBC860001D1255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AC89A723DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AC89A823DBC860001D1255 /* Debug */,
+				44AC89A923DBC860001D1255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AC89AA23DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AC89AB23DBC860001D1255 /* Debug */,
+				44AC89AC23DBC860001D1255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44AC897223DBC85F001D1255 /* Project object */;
+}
