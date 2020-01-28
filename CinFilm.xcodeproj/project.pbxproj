@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA4DA925935C42C9536498C /* Pods_CinFilm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7064BB4BFE82ECE769214B7F /* Pods_CinFilm.framework */; };
 		4434904D23DFBD2A001A5672 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434904C23DFBD2A001A5672 /* MovieCell.swift */; };
 		44AC897E23DBC85F001D1255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC897D23DBC85F001D1255 /* AppDelegate.swift */; };
 		44AC898023DBC85F001D1255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC897F23DBC85F001D1255 /* SceneDelegate.swift */; };
@@ -16,6 +17,8 @@
 		44AC899523DBC860001D1255 /* CinFilmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC899423DBC860001D1255 /* CinFilmTests.swift */; };
 		44AC89A023DBC860001D1255 /* CinFilmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC899F23DBC860001D1255 /* CinFilmUITests.swift */; };
 		44AC89AE23DBC8FD001D1255 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC89AD23DBC8FD001D1255 /* MoviesViewController.swift */; };
+		8BDA6269F0BC25365010A828 /* Pods_CinFilm_CinFilmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99848141D5314CF2DED29FBE /* Pods_CinFilm_CinFilmUITests.framework */; };
+		C8217A6F643F6F7D2EEF4EED /* Pods_CinFilmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F3DBB26E3CF7D4CC604F58 /* Pods_CinFilmTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E16F89ACA2B85D5C7757FB9 /* Pods-CinFilmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilmTests.debug.xcconfig"; path = "Target Support Files/Pods-CinFilmTests/Pods-CinFilmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3081BA965713E97FEFFDD7FB /* Pods-CinFilm-CinFilmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilm-CinFilmUITests.release.xcconfig"; path = "Target Support Files/Pods-CinFilm-CinFilmUITests/Pods-CinFilm-CinFilmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4434904C23DFBD2A001A5672 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		44AC897A23DBC85F001D1255 /* CinFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AC897D23DBC85F001D1255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		44AC899F23DBC860001D1255 /* CinFilmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinFilmUITests.swift; sourceTree = "<group>"; };
 		44AC89A123DBC860001D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44AC89AD23DBC8FD001D1255 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		7064BB4BFE82ECE769214B7F /* Pods_CinFilm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CinFilm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAC38FD82F95D22CB445318 /* Pods-CinFilm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilm.debug.xcconfig"; path = "Target Support Files/Pods-CinFilm/Pods-CinFilm.debug.xcconfig"; sourceTree = "<group>"; };
+		99848141D5314CF2DED29FBE /* Pods_CinFilm_CinFilmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CinFilm_CinFilmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C10893896059533965E1D8C /* Pods-CinFilmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilmTests.release.xcconfig"; path = "Target Support Files/Pods-CinFilmTests/Pods-CinFilmTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F3DBB26E3CF7D4CC604F58 /* Pods_CinFilmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CinFilmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8150287CAF7CD70CFEBDB46 /* Pods-CinFilm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilm.release.xcconfig"; path = "Target Support Files/Pods-CinFilm/Pods-CinFilm.release.xcconfig"; sourceTree = "<group>"; };
+		FF86306195B0170B300F60D6 /* Pods-CinFilm-CinFilmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilm-CinFilmUITests.debug.xcconfig"; path = "Target Support Files/Pods-CinFilm-CinFilmUITests/Pods-CinFilm-CinFilmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA4DA925935C42C9536498C /* Pods_CinFilm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8217A6F643F6F7D2EEF4EED /* Pods_CinFilmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDA6269F0BC25365010A828 /* Pods_CinFilm_CinFilmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33B6752496C61D7375346920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC38FD82F95D22CB445318 /* Pods-CinFilm.debug.xcconfig */,
+				F8150287CAF7CD70CFEBDB46 /* Pods-CinFilm.release.xcconfig */,
+				FF86306195B0170B300F60D6 /* Pods-CinFilm-CinFilmUITests.debug.xcconfig */,
+				3081BA965713E97FEFFDD7FB /* Pods-CinFilm-CinFilmUITests.release.xcconfig */,
+				0E16F89ACA2B85D5C7757FB9 /* Pods-CinFilmTests.debug.xcconfig */,
+				9C10893896059533965E1D8C /* Pods-CinFilmTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		44AC897123DBC85F001D1255 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				44AC899323DBC860001D1255 /* CinFilmTests */,
 				44AC899E23DBC860001D1255 /* CinFilmUITests */,
 				44AC897B23DBC85F001D1255 /* Products */,
+				33B6752496C61D7375346920 /* Pods */,
+				9999E3E64F7A4533502AC9E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +162,16 @@
 			path = CinFilmUITests;
 			sourceTree = "<group>";
 		};
+		9999E3E64F7A4533502AC9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7064BB4BFE82ECE769214B7F /* Pods_CinFilm.framework */,
+				99848141D5314CF2DED29FBE /* Pods_CinFilm_CinFilmUITests.framework */,
+				B9F3DBB26E3CF7D4CC604F58 /* Pods_CinFilmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AC89A423DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilm" */;
 			buildPhases = (
+				CD3F5710539992A81C92792B /* [CP] Check Pods Manifest.lock */,
 				44AC897623DBC85F001D1255 /* Sources */,
 				44AC897723DBC85F001D1255 /* Frameworks */,
 				44AC897823DBC85F001D1255 /* Resources */,
+				6EA64BACD9D60E22CEFEA241 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AC89A723DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilmTests" */;
 			buildPhases = (
+				52AD0A6039DFB3B78E0BE68A /* [CP] Check Pods Manifest.lock */,
 				44AC898C23DBC860001D1255 /* Sources */,
 				44AC898D23DBC860001D1255 /* Frameworks */,
 				44AC898E23DBC860001D1255 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AC89AA23DBC860001D1255 /* Build configuration list for PBXNativeTarget "CinFilmUITests" */;
 			buildPhases = (
+				4385C6409967204854B00073 /* [CP] Check Pods Manifest.lock */,
 				44AC899723DBC860001D1255 /* Sources */,
 				44AC899823DBC860001D1255 /* Frameworks */,
 				44AC899923DBC860001D1255 /* Resources */,
+				D0C8A3BAFA73E9153BFE38F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4385C6409967204854B00073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CinFilm-CinFilmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52AD0A6039DFB3B78E0BE68A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CinFilmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA64BACD9D60E22CEFEA241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CinFilm/Pods-CinFilm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CinFilm/Pods-CinFilm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CinFilm/Pods-CinFilm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3F5710539992A81C92792B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CinFilm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C8A3BAFA73E9153BFE38F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CinFilm-CinFilmUITests/Pods-CinFilm-CinFilmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CinFilm-CinFilmUITests/Pods-CinFilm-CinFilmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CinFilm-CinFilmUITests/Pods-CinFilm-CinFilmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44AC897623DBC85F001D1255 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		44AC89A523DBC860001D1255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAC38FD82F95D22CB445318 /* Pods-CinFilm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +603,7 @@
 		};
 		44AC89A623DBC860001D1255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8150287CAF7CD70CFEBDB46 /* Pods-CinFilm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +621,7 @@
 		};
 		44AC89A823DBC860001D1255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E16F89ACA2B85D5C7757FB9 /* Pods-CinFilmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +643,7 @@
 		};
 		44AC89A923DBC860001D1255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C10893896059533965E1D8C /* Pods-CinFilmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		44AC89AB23DBC860001D1255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF86306195B0170B300F60D6 /* Pods-CinFilm-CinFilmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +685,7 @@
 		};
 		44AC89AC23DBC860001D1255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3081BA965713E97FEFFDD7FB /* Pods-CinFilm-CinFilmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
