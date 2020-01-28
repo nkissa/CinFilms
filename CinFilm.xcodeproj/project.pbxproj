@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4434904D23DFBD2A001A5672 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434904C23DFBD2A001A5672 /* MovieCell.swift */; };
 		44AC897E23DBC85F001D1255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC897D23DBC85F001D1255 /* AppDelegate.swift */; };
 		44AC898023DBC85F001D1255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC897F23DBC85F001D1255 /* SceneDelegate.swift */; };
 		44AC898523DBC85F001D1255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AC898323DBC85F001D1255 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4434904C23DFBD2A001A5672 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		44AC897A23DBC85F001D1255 /* CinFilm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinFilm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AC897D23DBC85F001D1255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AC897F23DBC85F001D1255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				44AC898623DBC860001D1255 /* Assets.xcassets */,
 				44AC898823DBC860001D1255 /* LaunchScreen.storyboard */,
 				44AC898B23DBC860001D1255 /* Info.plist */,
+				4434904C23DFBD2A001A5672 /* MovieCell.swift */,
 			);
 			path = CinFilm;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				44AC897E23DBC85F001D1255 /* AppDelegate.swift in Sources */,
 				44AC898023DBC85F001D1255 /* SceneDelegate.swift in Sources */,
+				4434904D23DFBD2A001A5672 /* MovieCell.swift in Sources */,
 				44AC89AE23DBC8FD001D1255 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
