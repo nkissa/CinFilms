@@ -18,6 +18,7 @@
 		44AC899523DBC860001D1255 /* CinFilmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC899423DBC860001D1255 /* CinFilmTests.swift */; };
 		44AC89A023DBC860001D1255 /* CinFilmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC899F23DBC860001D1255 /* CinFilmUITests.swift */; };
 		44AC89AE23DBC8FD001D1255 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC89AD23DBC8FD001D1255 /* MoviesViewController.swift */; };
+		44CBC73A23E3D03D0025E8C9 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBC73923E3D03D0025E8C9 /* MovieGridViewController.swift */; };
 		8BDA6269F0BC25365010A828 /* Pods_CinFilm_CinFilmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99848141D5314CF2DED29FBE /* Pods_CinFilm_CinFilmUITests.framework */; };
 		C8217A6F643F6F7D2EEF4EED /* Pods_CinFilmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F3DBB26E3CF7D4CC604F58 /* Pods_CinFilmTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		44AC899F23DBC860001D1255 /* CinFilmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinFilmUITests.swift; sourceTree = "<group>"; };
 		44AC89A123DBC860001D1255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44AC89AD23DBC8FD001D1255 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		44CBC73923E3D03D0025E8C9 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		7064BB4BFE82ECE769214B7F /* Pods_CinFilm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CinFilm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAC38FD82F95D22CB445318 /* Pods-CinFilm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CinFilm.debug.xcconfig"; path = "Target Support Files/Pods-CinFilm/Pods-CinFilm.debug.xcconfig"; sourceTree = "<group>"; };
 		99848141D5314CF2DED29FBE /* Pods_CinFilm_CinFilmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CinFilm_CinFilmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 				44AC898323DBC85F001D1255 /* Main.storyboard */,
 				44AC89AD23DBC8FD001D1255 /* MoviesViewController.swift */,
 				44992E6D23E3C2A2006A1077 /* MovieDetailsViewController.swift */,
+				44CBC73923E3D03D0025E8C9 /* MovieGridViewController.swift */,
 				44AC898623DBC860001D1255 /* Assets.xcassets */,
 				44AC898823DBC860001D1255 /* LaunchScreen.storyboard */,
 				44AC898B23DBC860001D1255 /* Info.plist */,
@@ -418,6 +421,7 @@
 				44AC898023DBC85F001D1255 /* SceneDelegate.swift in Sources */,
 				4434904D23DFBD2A001A5672 /* MovieCell.swift in Sources */,
 				44AC89AE23DBC8FD001D1255 /* MoviesViewController.swift in Sources */,
+				44CBC73A23E3D03D0025E8C9 /* MovieGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
