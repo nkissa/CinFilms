@@ -53,6 +53,7 @@
                                             <outlet property="posterView" destination="X8z-4b-m18" id="FYl-MK-7sV"/>
                                             <outlet property="synopsisLabel" destination="jvF-nW-LjZ" id="MLK-U2-WWe"/>
                                             <outlet property="titleLabel" destination="RfA-Bg-XHi" id="5ch-Oo-V9X"/>
+                                            <segue destination="O1R-Dd-WjE" kind="show" id="AJB-Gz-b3F"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -69,6 +70,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1071.2" y="137.18140929535232"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="798-lt-8g7">
+            <objects>
+                <viewController id="O1R-Dd-WjE" customClass="MovieDetailsViewController" customModule="CinFilm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AeI-ek-cSm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dOe-lv-wjV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ROr-wK-dPi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t7v-Kb-u30" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="129"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HTE-u3-uZc">
