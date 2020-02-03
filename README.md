@@ -50,4 +50,4 @@ Describe any challenges encountered while building the app.
 <img src="http://g.recordit.co/G3giSrYfil.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+The main challenge I had was resizing the collecitons Image View. That took me a whle to fix.
